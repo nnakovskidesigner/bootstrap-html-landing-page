@@ -31,6 +31,49 @@ body{
 .icon {
   margin-left: 10px; /* adjust the value as desired */
 }
+ .no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .blockquote {
+    border-left:10px solid grey;
+  }
+  table td,
+table th {
+  color: black;
+}
+.bigbuttonchangeheight{
+  height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -11,7 +11,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <title>Hello, world!</title>
-  <link rel="stylesheet" href="/Bootstrap5Class---Nikola/Proekt/assets/css/custom.css">
+  <link href="/assets/css/custom.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
@@ -112,7 +112,7 @@
 
             <div class="container">
               <div class="row">
-                <div class="col-5 leftmainsection mt-5">
+                <div class="col-12 col-md-5 leftmainsection mt-5">
 
                   <div class="elementsheader">
                     <h3 class="text-primary pb-3">Elements</h3>
@@ -254,50 +254,179 @@
                     <button class="btn btn-dark text-white ml-3 btn-sm rounded-0">Small</button>
                     <button class="btn btn-outline-dark ml-3 btn-sm rounded-0 text-dark">Small</button>
 
-                    <div class="container">
+                    <div class="container no-padding">
                       <div class="row">
-                        <div class="col-5">
-                          <button class="btn btn-primary btn-lg rounded-0 d-block mb-3 mt-3">Default</button>
-                          <button class="btn btn-dark text-white btn-lg rounded-0 d-block mb-3">Default</button>
-                          <button class="btn btn-outline-dark btn-lg rounded-0 text-dark d-block">Default</button>
+                        <div class="col">
+                          <div style="display: flex;">
+                            <div style="display: flex; flex-direction: column;">
+                              <button class="btn btn-primary btn-lg rounded-0 d-block mb-3 mt-3">Default</button>
+                              <button class="btn btn-dark text-white btn-lg rounded-0 d-block mb-3">Default</button>
+                              <button class="btn btn-outline-dark btn-lg rounded-0 text-dark d-block">Default</button>
+                            </div>
+
+                            <div style="display: flex; flex-direction: column;" class="mt-3 ml-5">
+                              <button class="btn btn-primary btn-sm rounded-0 d-block">Small</button>
+                              <button class="btn btn-dark text-white mt-2 btn-sm d-block rounded-0">Small</button>
+                              <button class="btn btn-outline-dark mt-2 btn-sm rounded-0 d-block dark">Small</button>
+                            </div>
+                          </div>
                         </div>
 
-                        <div class="col-5"><button class="btn btn-primary btn-sm rounded-0 d-block">Small</button>
-                          <button class="btn btn-dark text-white mt-2 btn-sm d-block rounded-0">Small</button>
-                          <button class="btn btn-outline-dark mt-2 btn-sm rounded-0 d-block dark">Small</button>
+                        <div class="col">
+                          <div style="display: flex;">
+                            <div style="display: flex; flex-direction: column;">
+                              <button class="btn btn-primary btn-lg rounded-0 d-block mb-3 mt-3">Default</button>
+                              <button class="btn btn-dark text-white btn-lg rounded-0 d-block mb-3">Default</button>
+                              <button class="btn btn-outline-dark btn-lg rounded-0 text-dark d-block">Default</button>
+                            </div>
+
+                            <div style="display: flex; flex-direction: column;" class="mt-3 ml-5">
+                              <button class="btn btn-primary btn-sm rounded-0 d-block">Small</button>
+                              <button class="btn btn-dark text-white mt-2 btn-sm d-block rounded-0">Small</button>
+                              <button class="btn btn-outline-dark mt-2 btn-sm rounded-0 d-block dark">Small</button>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
                   </div>
 
 
 
 
 
+                  <blockquote class="blockquote mt-5">
+                    <h3 class="bluecolorfont pl-5">Blockquote</h3>
+                    <blockquote class="pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+                      temporibus maxime animi,
+                      accusamus obcaecati natus magnam a? Quod accusamus vitae sint nesciunt eveniet, odio
+                      exercitationem
+                      excepturi repudiandae sunt odit commodi.</blockquote>
+                  </blockquote>
 
 
 
 
 
+                  <h3 class="text-primary">Table</h3>
+                  <h5 class="text-primary">Default</h5>
+                  <div class="table-responsive border-top-0 mt-5">
+                    <table class="table border-top-0">
+                      <thead class="thead-primary">
+                        <tr>
+                          <th scope="col">Name</th>
+                          <th scope="col">Description</th>
+                          <th scope="col">Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="table-active">Item 1</td>
+                          <td class="table-active">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="table-active">29.99</td>
+                        </tr>
+                        <tr>
+                          <td class="">Item 2</td>
+                          <td class="">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="">19.99</td>
+                        </tr>
+                        <tr>
+                          <td class="table-active">Item 3</td>
+                          <td class="table-active">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="table-active">29.99</td>
+                        </tr>
+                        <tr>
+                          <td class="">Item 4</td>
+                          <td class="">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="">19.99</td>
+                        </tr>
+                        <tr>
+                          <td class="table-active">Item 5</td>
+                          <td class="table-active">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="table-active">100.00</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
 
 
-
-
-
-
+                  <h5 class="text-primary mt-5">Alternate</h5>
+                  <div class="table-responsive border-top-0">
+                    <table class="table border-top-0">
+                      <thead class="thead-primary">
+                        <tr>
+                          <th scope="col">Name</th>
+                          <th scope="col">Description</th>
+                          <th scope="col">Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="">Item 1</td>
+                          <td class="">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="">29.99</td>
+                        </tr>
+                        <tr>
+                          <td class="table-active">Item 2</td>
+                          <td class="table-active">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="table-active">19.99</td>
+                        </tr>
+                        <tr>
+                          <td class="">Item 3</td>
+                          <td class="">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="">29.99</td>
+                        </tr>
+                        <tr>
+                          <td class="table-active">Item 4</td>
+                          <td class="table-active">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="table-active">19.99</td>
+                        </tr>
+                        <tr>
+                          <td class="">Item 5</td>
+                          <td class="">Lorem ipsum dolor sit amet consecteturCell</td>
+                          <td class="">100.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
 
                 </div>
-                <div class="col-6 offset-1 rightmainsection">
+                
+                
+                <!--  RIGHT-LEFT
+                    SECTIONS DIVIDER  -->
+
+
+                <div class="col-12 col-md-6 offset-1 rightmainsection">
+                  
+                  <h4 class="mt-5 text-primary">Buttons</h4>
+                  <button class="btn btn-primary btn-lg rounded-0">Special</button>
+                  <button class="btn btn-dark text-white ml-3 btn-lg rounded-0">Default</button>
+                  <button class="btn btn-outline-dark ml-3 btn-lg rounded-0 text-dark">Alternate</button>
+
+                  <br>
+                  <div class="mt-4"></div>
+                  <button class="btn btn-primary btn-lg rounded-0 bigbuttonchangeheight">Big</button>
+                  <button class="btn btn-dark text-white ml-3 btn-lg rounded-0">Default</button>
+                  <button class="btn btn-outline-dark ml-3 btn-sm rounded-0 text-dark">Small</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                 </div>
               </div>
