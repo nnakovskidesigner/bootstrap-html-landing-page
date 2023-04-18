@@ -1,0 +1,61 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.prva_sekcija{
+    background-image: url('/Bootstrap5Class---Nikola/Proekt/assets/images/banner.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    border-top: 3px #5385c1 solid;
+}
+.ps_naslov_wrap {
+    padding-top: 6.5rem;
+    padding-bottom: 10rem;
+  }
+
+  .navbar-light .navbar-brand {
+    color: rgb(255 255 255 / 90%);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255 / 87%);
+}
+.border-left{
+    border-left:grey 1px black;
+}
+.prva_sekcija_generic{
+  height: auto;
+}
+
+.icon {
+  margin-left: 10px; /* adjust the value as desired */
+}
+
+
+
+
+@media (max-width:768px) {
+  .addtoponmobile{
+    margin-top:5%;
+  }
+}
+
+
+.leftmainsection{
+  /* background-color: cyan; */
+  /* height: 5000px; */
+}
+.rightmainsection{
+  /* background-color: green;
+  height: 5000px; */
+}
+
+
+.orderedandunordered-lists{
+  font-size: 15px;
+}
+
+.icons img{
+ width: 25px;
+}
