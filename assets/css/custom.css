@@ -4,7 +4,7 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .prva_sekcija{
-    background-image: url('/Bootstrap5Class---Nikola/Proekt/assets/images/banner.jpg');
+    background-image: url('/assets/images/banner.jpg');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -48,6 +48,13 @@ table th {
 .customdisabledbgcolor{
   background-color: #9FA5AA;
 }
+.addbgcolortocode{
+  background-color:#E9ECEF !important;
+}
+
+
+
+
 
 
 
