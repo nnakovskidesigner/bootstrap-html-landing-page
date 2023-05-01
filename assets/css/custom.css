@@ -1,5 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
 body{
   font-family: 'Raleway', sans-serif;
 }
@@ -51,8 +53,18 @@ table th {
 .addbgcolortocode{
   background-color:#E9ECEF !important;
 }
-
-
+.addcustomwidthboxesgenerix{
+  width: 24%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.addcustomwidthboxesgenerix img{
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+.bg-primary{
+  background-color: #5385C1;
+}
 
 
 
@@ -91,6 +103,42 @@ table th {
 @media (max-width:768px) {
   .addtoponmobile{
     margin-top:5%;
+  }
+  .addcustomwidthboxesgenerix{
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+  }
+  .addpaddingmobile{
+    padding-top: 5%;
+  }
+  body{
+    text-align: center;
+  }
+  .iconsmobile{
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+  .iconsmobile2{
+    padding-top: 0%;
+    padding-bottom: 8%;
+  }
+  .actions button{
+    width: 100%;
+    margin-left: 0!important;
+    margin-bottom: 5%;
+  }
+  .buttonsmobile button{
+    width: 100%!important;
+  }
+  .rightmainsection button{
+    width: 100%;
+    margin-left: 0!important;
+    margin-bottom: 5%;
+  }
+  .fitbuttonsmobile{
+    width: 33%;
   }
 }
 
