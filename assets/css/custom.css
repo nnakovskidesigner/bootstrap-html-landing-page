@@ -5,6 +5,9 @@
 body{
   font-family: 'Raleway', sans-serif;
 }
+button{
+  border-radius: 0!important;
+}
 .prva_sekcija{
     background-image: url('/assets/images/banner.jpg');
     background-size: cover;
